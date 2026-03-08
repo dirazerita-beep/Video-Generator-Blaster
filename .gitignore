@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+*.spec
+
+# PyInstaller output
+dist/
+build/
+*.spec
+
+# FFmpeg binaries (too large for git; place manually)
+third_party/ffmpeg/*.exe
+
+# Output videos
+output/
+
+# Config (may contain API keys — keep local only)
+config.json
+
+# Temp files
+temp/
+*.tmp
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
